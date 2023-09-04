@@ -1,0 +1,122 @@
+.wrapper {
+    width: 1199px;
+    height: 1100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background: #FFF;
+}
+.menu {
+    width: 100%;
+    max-width: 1200px;
+    height: 120px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_ul {
+    width: 550px;
+    height: 27px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.hover:hover {
+    color: #2945e3;
+    transition: background-color 0.8s;
+}
+.burger_popup {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+}
+.rectangle{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    height: 838px;
+    border-radius: 8px;
+    border: 1px solid #E7E6EB;
+    background: #FFF;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.08);
+    text-align: start;
+}
+.image2{
+    width: 258px;
+    height: 258px;
+}
+.price{
+    width: 320px;
+    color: #333;
+    // font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.name_product{
+    width: 320px;
+    color: #333;
+    // font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.product_property{
+    width: 330px;
+    height: 68px;
+    color: #333;
+    // font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.you_color{
+    width: 320px;
+    color: #666;
+    // font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.reviews{
+    width: 320px;
+    color: #61A5FA;
+    // font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    text-decoration-line: underline;
+}
+.add_cart{
+    width: 320px;
+    height: 55px;
+    border-radius: 8px;
+    background: #FBBF23;
+}
+.buy_now{
+    width: 320px;
+    height: 55px;
+    border-radius: 8px;
+    border: 1px solid #61A5FA;
+}
+.test{
+    width: 320px;
+    display: flex;
+    flex-flow: row wrap;
+    div{
+        margin-right: 16px;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border: 4px solid #FFF;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    }
+}
